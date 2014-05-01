@@ -1,0 +1,12 @@
+A simple html/css/javascript module.
+Provides small mosaic block, with equal sizes, and with custom content inside every mosaic block.
+
+Developer documentation:
+-Elements with onclick="changeFilterSettings(this);" should have an attribute: filter-setting.
+The value of filter-setting will change the displayed category of the elements.
+
+-Elements inside <div id="content-filter"> should have an attribute: filter-category. This attribute must be an array (eg.: [0,1]).
+The javascript code will create entity-category connection based on these attributes. So if there's an element with filter-category="[0,1]", then this element belongs to category 0 and 1.
+So if you select to show the category 0 elements, then it will be shown, but in if you select eg. category 4, then it will be hidden.
+
+Further comments in the javascript file.

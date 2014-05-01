@@ -1,0 +1,26 @@
+#content-slider{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0px;
+
+    z-index: 9999;
+
+    background: rgba(0,0,0,0.5);
+
+    transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -o-transition:all 0.5s;
+}
+
+#content-filter{
+    width:600px;
+    height: auto;
+    overflow: hidden;
+}
+
+.filter-element{
+    width: 200px;
+    float: left;
+}
